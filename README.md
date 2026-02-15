@@ -6,8 +6,6 @@
 [![Hackathon](https://img.shields.io/badge/Elasticsearch-Agent%20Builder%20Hackathon-blue)](https://elasticsearch.devpost.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
-
 ## 🎬 Hero Demo & Visuals
 
 ### **The Intelligent Loop in Action**
@@ -15,14 +13,10 @@
 
 *Integrated reasoning between n8n Orchestrator and Elasticsearch Knowledge Base.*
 
----
-
 ## 💡 Overview
 SLEUTH-Archivist is a specialized AI archivist built for the **National Museum of Taiwan History (NMTH)**. It addresses the critical issue of **"Evidence Sparsity"** (inspired by the SLEUTH framework) in traditional RAG systems. 
 
 By implementing an **Agentic Context Engineering (ACE)** loop, our system transitions from a static RAG to a self-improving expert system. It doesn't just "search"; it **reasons, identifies gaps, and learns from Human-in-the-Loop (HITL) feedback.**
-
----
 
 ## 📚 Seed Datasets (Initial Knowledge Base)
 To demonstrate the "Self-Improving Loop," we have provided three thematic datasets in the [`docs/`](./docs/) folder. These serve as the agent's **Seed Context**:
@@ -38,8 +32,6 @@ To demonstrate the "Self-Improving Loop," we have provided three thematic datase
 * **Anti-Hallucination Protocol**: Implements a strict `evidence_check` via Kibana MCP. If quantitative facts are missing, the agent triggers a `knowledge_gap` status instead of hallucinating.
 * **Early Experience (EE) Learning**: Treats historical QA logs (`nmth-qa-logs`) as a **World Model**, allowing the agent to analyze past failures and refine its search strategy.
 * **Agentic Context Engineering**: Uses n8n to perform **Query Transformation**, ensuring complex historical queries are correctly mapped to Elasticsearch's vector and semantic space.
-
----
 
 ## 🛠️ Architecture & Workflow
 
@@ -64,6 +56,19 @@ We manage two distinct indices to facilitate self-improvement:
 1. **`nmth-knowledge-base`**: Official museum records.
 2. **`nmth-qa-logs`**: Capturing agent experiences and user feedback.
 
+### **🗄️ Backend: Dual-Index Strategy**
+
+Our system employs a dual-index architecture to facilitate the self-improving loop, separating static knowledge from dynamic experience.
+
+| Index Name | Purpose | Role in ACE Framework | Data Source |
+| :--- | :--- | :--- | :--- |
+| **`nmth-knowledge-base`** | Official Museum Records | **Knowledge Provider** (The Seed) | `docs/KBI_Theme_1~3.jsonl` |
+| **`nmth-qa-logs`** | Gap Tracking & Feedback | **Experience Memory** (World Model) | n8n Automated Logging |
+
+#### **Index Details**
+* **`nmth-knowledge-base`**: Contains structured historical narratives and artifact metadata. This is the primary source for the Agent's RAG retrieval.
+* **`nmth-qa-logs`**: Captures user queries, agent reasoning, and `knowledge_gap` statuses. Following the **Early Experience (EE)** paradigm, these logs allow the system to learn from "what it doesn't know" through human intervention.
+
 <p align="center">
 <img width="32%" alt="two-indexes" src="https://github.com/user-attachments/assets/0e2fc904-1e12-4c3d-8edf-d18160bf5e49" />
 <img width="32%" alt="knowledge-base-index" src="https://github.com/user-attachments/assets/5d4bed37-c286-4787-a7f8-193abbd246e2" />
@@ -77,8 +82,6 @@ We manage two distinct indices to facilitate self-improvement:
 ### **n8n Multi-Agent (+MCP) Workflow**
 
 <img width="100%" alt="n8n" src="https://github.com/user-attachments/assets/d6ee5e59-8f1a-4558-b2eb-902903be840e" />
-
----
 
 ## 📦 Setup & Deployment
 
@@ -94,9 +97,7 @@ Before running the agent, initialize your indices using the schemas in [`agents/
 Copy `.env.example` to `.env` and fill in your `ELASTIC_API_KEY`, `ELASTIC_ENDPOINT`, and `MCP_SERVER_URL`.
 
 ### 3. Import Workflow
-Import `workflows/sleuth-archivist-v1.json` into your n8n instance.
-
----
+Import `workflows/workflows/✅ NMTH-Elasticsearch-v2-MCP-Telegram.json` into your n8n instance.
 
 ## 🎬 Demo Scenario: The Self-Improving Loop
 
@@ -104,15 +105,11 @@ Import `workflows/sleuth-archivist-v1.json` into your n8n instance.
 2. **The Expert (HITL)**: The museum curator reviews gap logs and injects the official standard (20°C / 50% RH) into Elasticsearch.
 3. **The Evolution**: Upon the next identical query, the Agent retrieves the newly available context, fulfilling the **ACE loop** to provide a hallucination-free answer.
 
----
-
 ## 📦 Setup & Deployment
 
 1. **Environment Variables**: Copy `.env.example` to `.env` and fill in your `ELASTIC_API_KEY`, `ELASTIC_ENDPOINT`, and `MCP_SERVER_URL`.
 2. **Import Workflow**: Import `workflows/sleuth-archivist-v1.json` into your n8n instance.
 3. **Elasticsearch**: Ensure your indices are mapped with the provided configurations in the `/agents` folder.
-
----
 
 ## 🎥 Video Demo & Community
 
