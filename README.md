@@ -22,7 +22,19 @@ SLEUTH-Archivist is a specialized AI archivist built for the **National Museum o
 
 By implementing an **Agentic Context Engineering (ACE)** loop, our system transitions from a static RAG to a self-improving expert system. It doesn't just "search"; it **reasons, identifies gaps, and learns from Human-in-the-Loop (HITL) feedback.**
 
-### 🚀 Technical Highlights
+---
+
+## 📚 Seed Datasets (Initial Knowledge Base)
+To demonstrate the "Self-Improving Loop," we have provided three thematic datasets in the [`docs/`](./docs/) folder. These serve as the agent's **Seed Context**:
+
+1.  **Theme 1: Museum Overview & Mission** (`.jsonl`)
+    - Fundamental facts about the National Museum of Taiwan History (NMTH).
+2.  **Theme 2: Story of Taiwan Land and People** (`.jsonl`)
+    - Detailed historical narratives spanning multiple eras.
+3.  **Theme 3: Collections Overview & Highlights** (`.jsonl`)
+    - Specific metadata on key artifacts, used for strict evidence checking.
+
+## 🚀 Technical Highlights
 * **Anti-Hallucination Protocol**: Implements a strict `evidence_check` via Kibana MCP. If quantitative facts are missing, the agent triggers a `knowledge_gap` status instead of hallucinating.
 * **Early Experience (EE) Learning**: Treats historical QA logs (`nmth-qa-logs`) as a **World Model**, allowing the agent to analyze past failures and refine its search strategy.
 * **Agentic Context Engineering**: Uses n8n to perform **Query Transformation**, ensuring complex historical queries are correctly mapped to Elasticsearch's vector and semantic space.
@@ -65,6 +77,24 @@ We manage two distinct indices to facilitate self-improvement:
 ### **n8n Multi-Agent (+MCP) Workflow**
 
 <img width="100%" alt="n8n" src="https://github.com/user-attachments/assets/d6ee5e59-8f1a-4558-b2eb-902903be840e" />
+
+---
+
+## 📦 Setup & Deployment
+
+### 1. Data Ingestion (Kibana Dev Tools)
+Before running the agent, initialize your indices using the schemas in [`agents/schema_dev_tools.json`](./agents/schema_dev_tools.json) and import the seed data from `docs/`:
+- Use the **Elasticsearch File Data Visualizer** to upload:
+    - `KBI_Theme_1_Museum_Overview_&_Mission.jsonl`
+    - `KBI_Theme_2_Story_of_Taiwan_Land_and_People.jsonl`
+    - `KBI_Theme_3_Collections_Overview_&_Highlights.jsonl`
+- Target Index: `nmth-knowledge-base`
+
+### 2. Environment Variables
+Copy `.env.example` to `.env` and fill in your `ELASTIC_API_KEY`, `ELASTIC_ENDPOINT`, and `MCP_SERVER_URL`.
+
+### 3. Import Workflow
+Import `workflows/sleuth-archivist-v1.json` into your n8n instance.
 
 ---
 
