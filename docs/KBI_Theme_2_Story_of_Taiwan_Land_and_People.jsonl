@@ -1,0 +1,269 @@
+[
+  {
+    "id": "nmth_exhibition_overview",
+    "doc_type": "exhibition_overview",
+    "title": "Permanent Exhibition: The Story of Taiwan: Land and People (斯土斯民：臺灣的故事)",
+    "summary": "The permanent exhibition 'The Story of Taiwan: Land and People' presents Taiwan's history from prehistory to the present as a story of encounters between diverse peoples, cultures, and powers on the island. Structured in seven chronological units, it emphasizes pluralistic narratives, everyday life, public history, and interactive displays rather than a singular national or colonial storyline. Updated to version 2.0 'Island of Encounters' in recent years, it integrates digital tools like VR, 3D models, and audio histories to engage visitors in exploring Taiwan's multifaceted past.",
+    "body": "The permanent exhibition 'The Story of Taiwan: Land and People' (斯土斯民：臺灣的故事) is the core of the National Museum of Taiwan History's presentation of Taiwan's historical development. Spanning the museum's main exhibition halls, it guides visitors through Taiwan's past from prehistoric settlements to contemporary society, framed as a dynamic island where different peoples have met, interacted, competed, and coexisted.\n\nThe exhibition adopts a public history approach, drawing on diverse sources including artifacts, documents, oral histories, photographs, films, and contemporary objects. It avoids a linear, state-centric narrative, instead highlighting multiple perspectives from indigenous peoples, migrants, colonizers, and modern citizens. Key themes include migration waves, cultural exchanges, social conflicts, and resilience in everyday life.\n\nStructurally, the exhibition is divided into seven chronological units, each posing core questions to provoke reflection (e.g., 'Who are the earliest Taiwanese?'). Interactive elements such as touchscreens, audio stations, VR reconstructions, and hands-on activities make history accessible to all ages. Version 2.0, titled 'Island of Encounters' (交會之島), incorporates recent research, digital enhancements, and public input to refresh the displays.\n\nThe exhibition serves as the foundation for the museum's educational programs, guided tours, thematic routes, and online digital versions. It encourages visitors to see themselves as part of the ongoing story, with sections on public participation and future imaginings.",
+    "exhibition_name": "The Story of Taiwan: Land and People (斯土斯民：臺灣的故事)",
+    "exhibition_version": "2.0 Island of Encounters (交會之島)",
+    "unit_count": 7,
+    "time_coverage": "Prehistory to contemporary Taiwan",
+    "narrative_themes": [
+      "Encounters and intersections",
+      "Pluralistic histories",
+      "Public history",
+      "Everyday life and personal stories",
+      "Digital and interactive storytelling"
+    ],
+    "period_tags": [
+      "Prehistoric Taiwan",
+      "Early modern maritime era",
+      "Dutch/Spanish presence",
+      "Qing rule",
+      "Japanese colonial period",
+      "Post-war era",
+      "Democratization"
+    ],
+    "theme_tags": [
+      "Permanent exhibition",
+      "Taiwan history narrative",
+      "Public history",
+      "Interactive exhibits"
+    ],
+    "people_groups": [
+      "Indigenous Austronesian peoples",
+      "Han Chinese migrants",
+      "European traders",
+      "Japanese colonizers",
+      "Post-war mainlanders",
+      "Contemporary Taiwanese"
+    ],
+    "keywords": [
+      "Permanent exhibition",
+      "The Story of Taiwan",
+      "斯土斯民",
+      "Island of Encounters",
+      "Taiwan history exhibits"
+    ],
+    "source_url": "https://www.nmth.gov.tw/cl.aspx?n=4113"
+  },
+  {
+    "id": "nmth_exhibition_unit_1",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 1: Taiwan, Island of Encounters (臺灣，交會之島)",
+    "summary": "This opening unit explores prehistoric Taiwan as a hub of human migration and cultural formation. It addresses 'Who are the earliest Taiwanese?' through archaeological evidence of Austronesian settlements, early trade networks, and diverse lifeways, setting the stage for Taiwan as an island of encounters.",
+    "body": "Unit 1 introduces Taiwan's deep history, beginning with prehistoric human arrivals around 5,000–6,000 years ago. Archaeological sites like Tsochen and Tapenkeng reveal early Austronesian-speaking peoples who developed farming, pottery, and maritime skills. The unit highlights Taiwan as a key node in ancient Austronesian expansion across the Pacific and Indian Oceans.\n\nDisplays include jade artifacts, stone tools, pottery, and reconstructions of ancient villages. Interactive maps show migration routes from mainland Asia and Southeast Asia. The narrative emphasizes environmental adaptation, early trade with neighboring regions, and the foundations of indigenous cultures that persist today.\n\nCore questions: Who were the first inhabitants? How did early societies form on this island? The unit challenges visitors to rethink Taiwan's origins beyond later colonial arrivals.",
+    "unit_order": 1,
+    "unit_name": "Taiwan, Island of Encounters (臺灣，交會之島)",
+    "time_range": "Prehistory (c. 5000 BCE – 16th century CE)",
+    "core_questions": [
+      "Who are the earliest Taiwanese?"
+    ],
+    "key_groups": [
+      "Prehistoric Austronesian peoples"
+    ],
+    "key_events": [
+      "Austronesian migrations",
+      "Early settlements and adaptations"
+    ],
+    "representative_objects": [
+      "Jade artifacts",
+      "Neolithic pottery",
+      "Stone tools"
+    ],
+    "period_tags": ["Prehistoric Taiwan"],
+    "theme_tags": ["Prehistory", "Indigenous origins", "Migrations"],
+    "people_groups": ["Indigenous Austronesian peoples"],
+    "keywords": ["Prehistoric Taiwan", "Austronesian", "Early settlements"],
+    "source_url": "https://the.nmth.gov.tw/nmth/zh-tw/Home/DigitalLearning"
+  },
+  {
+    "id": "nmth_exhibition_unit_2",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 2: First Landings (最初的抵岸)",
+    "summary": "Unit 2 covers the early modern era when Taiwan became a maritime crossroads. It depicts private Chinese and Japanese traders, pirates, and explorers arriving in the 16th century, establishing temporary settlements and foreshadowing larger colonial involvements.",
+    "body": "As European powers expanded into Asia, Taiwan emerged as a strategic stopover. Chinese junks from Fujian and Japanese vessels frequented Anping and other ports for trade in deerskins, sulfur, and sugar. Pirates like Lin Feng and Yan Siqi used the island as a base.\n\nExhibits feature maps of trade routes, ship models, trade goods, and settlement remains. Audio stories recount multicultural interactions at early ports.\n\nCore questions focus on the island's role as a fluid frontier before formal colonization.",
+    "unit_order": 2,
+    "unit_name": "First Landings (最初的抵岸)",
+    "time_range": "Mid-16th to late 16th century",
+    "core_questions": [
+      "How did Taiwan enter the global maritime world?"
+    ],
+    "key_groups": [
+      "Chinese merchants and pirates",
+      "Japanese traders"
+    ],
+    "key_events": [
+      "Maritime trade boom",
+      "Pirate bases"
+    ],
+    "representative_objects": [
+      "Trade goods (deerskins, sulfur)",
+      "Ship models",
+      "Port settlement artifacts"
+    ],
+    "period_tags": ["Early modern maritime era"],
+    "theme_tags": ["Trade", "Piracy", "Early contacts"],
+    "people_groups": ["Han Chinese traders", "Japanese merchants"],
+    "keywords": ["Maritime trade", "Pirates", "16th century Taiwan"],
+    "source_url": "https://www.nmth.gov.tw/cl.aspx?n=4113"
+  },
+  {
+    "id": "nmth_exhibition_unit_3",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 3: Living by the Sea (倚海而生的島與人)",
+    "summary": "Unit 3 examines the brief Dutch and Spanish colonial footholds in the 17th century. It portrays Taiwan as a contested space in European maritime rivalries, with forts, missions, and early intercultural exchanges between Europeans, Chinese, and indigenous groups.",
+    "body": "Dutch VOC and Spanish forces established forts at Zeelandia (Tainan) and San Domingo (Keelung). Trade in deer products and sugar boomed, alongside Christian missions among indigenous communities. Conflicts with Chinese forces ended European control by 1662.\n\nDisplays include fort models, VOC documents, missionary artifacts, and indigenous responses.\n\nThe unit explores hybrid cultures emerging from these encounters.",
+    "unit_order": 3,
+    "unit_name": "Living by the Sea (倚海而生的島與人)",
+    "time_range": "Early 17th century (1624–1662)",
+    "core_questions": [
+      "What did European arrival bring to the island?"
+    ],
+    "key_groups": [
+      "Dutch traders",
+      "Spanish missionaries",
+      "Indigenous allies and resistors"
+    ],
+    "key_events": [
+      "Dutch Fort Zeelandia",
+      "Spanish Fort San Domingo",
+      "Koxinga expulsion"
+    ],
+    "representative_objects": [
+      "Fort models",
+      "VOC coins and contracts",
+      "Missionary items"
+    ],
+    "period_tags": ["Dutch/Spanish colonial presence"],
+    "theme_tags": ["Colonialism", "Trade forts", "Intercultural exchange"],
+    "people_groups": ["Europeans", "Indigenous peoples"],
+    "keywords": ["Dutch Taiwan", "Spanish Taiwan", "17th century colonies"],
+    "source_url": "https://event.culture.tw/NMTH/portal/Tour/J5402MAction"
+  },
+  {
+    "id": "nmth_exhibition_unit_4",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 4: Coexistence and Competition between Mountains and Seas (山海之間的共存與競逐)",
+    "summary": "Unit 4 covers Qing rule (1683–1895), focusing on massive Han migration, land reclamation, indigenous resistance, and multicultural societies in plains versus mountains.",
+    "body": "After Zheng Chenggong's victory, Qing incorporated Taiwan. Millions of Fujianese migrants cleared plains for rice and sugar, while indigenous groups retained mountain domains. Conflicts like the Mudan Incident highlighted tensions.\n\nExhibits show migrant tools, village models, indigenous crafts, and Qing administrative records.",
+    "unit_order": 4,
+    "unit_name": "Coexistence and Competition between Mountains and Seas (山海之間的共存與競逐)",
+    "time_range": "1683–1895 (Qing Dynasty)",
+    "core_questions": [
+      "How did migrants and indigenous peoples coexist?"
+    ],
+    "key_groups": [
+      "Han settlers",
+      "Indigenous highlanders"
+    ],
+    "key_events": [
+      "Mass migration",
+      "Land reclamation",
+      "Mudan Incident"
+    ],
+    "representative_objects": [
+      "Pioneer tools",
+      "Indigenous textiles",
+      "Qing maps"
+    ],
+    "period_tags": ["Qing rule"],
+    "theme_tags": ["Migration", "Settlement", "Ethnic tensions"],
+    "people_groups": ["Han migrants", "Indigenous peoples"],
+    "keywords": ["Qing Taiwan", "Han settlement", "Indigenous resistance"],
+    "source_url": "https://www.nmth.gov.tw/cl.aspx?n=4113"
+  },
+  {
+    "id": "nmth_exhibition_unit_5",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 5: Frustrations and Dreams under New Order (新秩序下的苦悶與夢想)",
+    "summary": "Unit 5 depicts Japanese colonial rule (1895–1945), modernizing infrastructure, education, and policing while imposing assimilation and exploiting resources. It balances state achievements with personal struggles and resistance.",
+    "body": "Japan transformed Taiwan into a model colony with railroads, schools, and hygiene campaigns. Exhibits contrast official progress with rice riots, conscription, and independence movements like the Tapani Incident.\n\nPersonal diaries, photos, and films humanize the era.",
+    "unit_order": 5,
+    "unit_name": "Frustrations and Dreams under New Order (新秩序下的苦悶與夢想)",
+    "time_range": "1895–1945 (Japanese colonial period)",
+    "core_questions": [
+      "What was life like under Japanese rule?"
+    ],
+    "key_groups": [
+      "Japanese administrators",
+      "Taiwanese elites and masses"
+    ],
+    "key_events": [
+      "Modernization projects",
+      "Tapani Incident",
+      "Wartime mobilization"
+    ],
+    "representative_objects": [
+      "Railway models",
+      "School uniforms",
+      "Colonial films"
+    ],
+    "period_tags": ["Japanese colonial period"],
+    "theme_tags": ["Modernization", "Assimilation", "Resistance"],
+    "people_groups": ["Japanese colonizers", "Taiwanese subjects"],
+    "keywords": ["Japanese Taiwan", "Colonial modernity", "Tapani Incident"],
+    "source_url": "https://the.nmth.gov.tw/nmth/zh-tw/Home/DigitalLearning"
+  },
+  {
+    "id": "nmth_exhibition_unit_6",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 6: The Road to Democracy (邁向民主這條路)",
+    "summary": "Unit 6 covers post-1945 Taiwan: retrocession, 228 Incident, martial law, economic miracle, and democratization through social movements.",
+    "body": "After WWII, Taiwan transitioned under ROC rule amid land reforms, White Terror, and industrialization. Exhibits document 228, Kaohsiung Incident, and Wild Lily movement leading to 1990s democracy.\n\nVictim testimonies and protest artifacts personalize political change.",
+    "unit_order": 6,
+    "unit_name": "The Road to Democracy (邁向民主這條路)",
+    "time_range": "1945–present (Post-war era)",
+    "core_questions": [
+      "How did Taiwan become a democracy?"
+    ],
+    "key_groups": [
+      "Mainlander officials",
+      "Local activists"
+    ],
+    "key_events": [
+      "228 Incident",
+      "Martial law (1949–1987)",
+      "Democratization movements"
+    ],
+    "representative_objects": [
+      "228 shirts",
+      "Protest banners",
+      "Wild Lily replicas"
+    ],
+    "period_tags": ["Post-war era", "Democratization"],
+    "theme_tags": ["Political transition", "Social movements", "Human rights"],
+    "people_groups": ["Post-war mainlanders", "Taiwanese activists"],
+    "keywords": ["228 Incident", "Martial law Taiwan", "Democratization"],
+    "source_url": "https://www.nmth.gov.tw/cl.aspx?n=4113"
+  },
+  {
+    "id": "nmth_exhibition_unit_7",
+    "doc_type": "exhibition_unit",
+    "title": "Unit 7: Everyone's Museum (大家的博物館)",
+    "summary": "The concluding unit invites public participation, showcasing donor stories, community memories, and future visions. It positions the museum as a living space for collective memory-making.",
+    "body": "Visitors contribute to history through donor exhibits and interactive stations. Themes include multicultural Taiwan today and open questions for the future.\n\nIt reinforces the exhibition's message: history is ongoing, shaped by all.",
+    "unit_order": 7,
+    "unit_name": "Everyone's Museum (大家的博物館)",
+    "time_range": "Contemporary and future-oriented",
+    "core_questions": [
+      "How do we all write history?"
+    ],
+    "key_groups": [
+      "Museum visitors and donors"
+    ],
+    "key_events": [
+      "Public history initiatives"
+    ],
+    "representative_objects": [
+      "Donor artifacts",
+      "Interactive stations"
+    ],
+    "period_tags": ["Contemporary Taiwan"],
+    "theme_tags": ["Public participation", "Collective memory", "Future history"],
+    "people_groups": ["All Taiwanese communities"],
+    "keywords": ["Public history", "Museum participation", "Collective memory"],
+    "source_url": "https://gpi.culture.tw/books/1011001915"
+  }
+]
