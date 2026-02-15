@@ -1,0 +1,95 @@
+[
+  {
+    "id": "nmth_museum_profile",
+    "doc_type": "museum_profile",
+    "title": "National Museum of Taiwan History – Museum Profile",
+    "summary": "The National Museum of Taiwan History (NMTH) is a national-level history museum located in Annan District, Tainan City, Taiwan. Opened in 2011 under the Ministry of Culture, it is dedicated to researching, collecting, preserving, and presenting the history of Taiwan from prehistory to the contemporary era. Through exhibitions, collections, public programs, and digital resources, the museum highlights the island as a meeting place of peoples, cultures, and political powers, and promotes a pluralistic understanding of Taiwan's past and present.",
+    "body": "The National Museum of Taiwan History (NMTH) is a national history museum dedicated to the study and public presentation of Taiwan's past. The museum is located in Annan District, Tainan City, in southern Taiwan, within a large park-like site that includes exhibition buildings, collection and administration facilities, and a lakeside environment. It operates under the Ministry of Culture of the Republic of China (Taiwan).\n\nNMTH officially opened to the public in 2011. Its establishment responded to the need for a national institution focused specifically on Taiwan's history, distinct from broader natural science or fine arts museums. From the outset, the museum has aimed to present Taiwan's history from multiple perspectives, emphasizing everyday life, diverse communities, and the experiences of ordinary people alongside political events and state narratives.\n\nThe museum's exhibitions and collections cover Taiwan's development from prehistory, through the periods of European maritime expansion, Dutch and Spanish colonial presence, the Qing Empire, Japanese rule, and the post-1945 Republic of China administration, up to contemporary democratic society. Rather than treating any single regime or community as the sole subject of history, NMTH highlights the island as a place where different peoples, cultures, and political powers have met, conflicted, and negotiated over time.\n\nAs a public history institution, NMTH integrates research, collecting, preservation, display, and education. The museum maintains large collections of artifacts, documents, photographs, audiovisual materials, and contemporary objects that document social movements and everyday life. It develops long-term exhibitions such as the main permanent exhibition on the story of Taiwan, along with special exhibitions that focus on particular themes, periods, or issues. The museum also offers guided tours, educational programs, and digital resources to serve school groups, researchers, families, and general visitors.\n\nIn addition to onsite activities, NMTH plays a broader role as a national platform for collaboration in the field of Taiwan history and museum practice. It cooperates with local museums, academic institutions, communities, and international partners to strengthen research on Taiwan's past and to share Taiwan's historical experiences with wider audiences.",
+    "location": {
+      "city": "Tainan",
+      "district": "Annan District",
+      "country": "Taiwan",
+      "address": "No. 250, Section 1, Changhe Road, Annan District, Tainan City 709025, Taiwan"
+    },
+    "founded_year": 2011,
+    "governing_body": "Ministry of Culture, Republic of China (Taiwan)",
+    "museum_type": [
+      "National museum",
+      "History museum"
+    ],
+    "time_coverage": "Prehistory to contemporary Taiwan",
+    "theme_tags": [
+      "Taiwan history",
+      "Public history",
+      "Pluralistic narratives",
+      "Everyday life",
+      "National museum"
+    ],
+    "people_groups": [
+      "Indigenous peoples of Taiwan",
+      "Han settlers and migrants",
+      "Hakka communities",
+      "Japanese colonial officials and residents",
+      "Post-war mainlander communities",
+      "Contemporary Taiwanese society"
+    ],
+    "period_tags": [
+      "Prehistoric Taiwan",
+      "Early modern maritime world",
+      "Qing rule",
+      "Japanese colonial period",
+      "Post-war and Cold War era",
+      "Democratization and contemporary period"
+    ],
+    "keywords": [
+      "National Museum of Taiwan History",
+      "NMTH",
+      "Taiwan history museum",
+      "Tainan",
+      "Annan District",
+      "Taiwanese history"
+    ],
+    "website": "https://www.nmth.gov.tw/",
+    "source_url": "https://en.wikipedia.org/wiki/National_Museum_of_Taiwan_History"
+  },
+  {
+    "id": "nmth_museum_mission",
+    "doc_type": "museum_mission",
+    "title": "National Museum of Taiwan History – Mission and Objectives",
+    "summary": "The National Museum of Taiwan History is dedicated to collecting, preserving, researching, and exhibiting materials related to Taiwan's history and cultures, and to promoting public understanding through education and outreach. Its mission is to build a comprehensive and pluralistic narrative of Taiwan's past, to safeguard the material and immaterial heritage of different communities, and to serve as a national hub for historical research, public history, and museum cooperation.",
+    "body": "The mission of the National Museum of Taiwan History is to serve as a national center for the preservation, research, and public presentation of Taiwan's historical development and multicultural society. The museum views Taiwan as a place where diverse peoples and cultures have met over time, and it seeks to reflect this complexity through its collections, exhibitions, and public programs.\n\nFirst, the museum is committed to systematically collecting and preserving materials that document Taiwan's history and cultures. This includes artifacts, documents, photographs, films, maps, oral histories, and contemporary objects that record social movements and everyday life. By safeguarding both tangible and intangible heritage, the museum aims to build a comprehensive and sustainable foundation for future research and public interpretation.\n\nSecond, NMTH conducts and supports research on Taiwan's historical development. Its staff collaborate with scholars, communities, and other institutions to explore topics such as indigenous histories, migration and settlement, colonialism and empire, state formation, social movements, and democratization. Research outcomes feed into exhibitions, publications, educational resources, and digital platforms, ensuring that new scholarship reaches wider audiences.\n\nThird, the museum curates exhibitions and learning programs that present Taiwan's history in accessible and engaging ways. The permanent exhibition and special exhibitions are designed to highlight multiple perspectives, including those of different ethnic, social, and regional communities. The museum emphasizes public history approaches that connect large political and economic changes with personal stories and everyday experiences.\n\nFourth, NMTH is dedicated to education and public engagement. It provides guided tours, thematic routes, workshops, lectures, teaching materials, and online resources for diverse audiences, including school groups, teachers, families, seniors, and international visitors. The museum seeks to encourage critical thinking about history, to foster dialogue about contested memories, and to support lifelong learning.\n\nFinally, the museum aspires to act as a national hub and collaborative platform. It works with local museums, community organizations, and international partners to share resources, develop joint projects, and promote professional exchange in the fields of Taiwan studies and museum practice. Through these efforts, NMTH contributes to a richer, more inclusive understanding of Taiwan's place in regional and global history.",
+    "mission_points": [
+      "Collect and preserve artifacts, documents, audiovisual materials, and other evidence related to the history and cultures of Taiwan.",
+      "Conduct and support research on Taiwan's historical development, from prehistory to the contemporary era, with attention to multiple communities and perspectives.",
+      "Curate permanent and special exhibitions that present Taiwan's history in pluralistic, accessible, and engaging ways.",
+      "Develop educational programs, teaching resources, and public activities that promote historical understanding and critical reflection among diverse audiences.",
+      "Serve as a national hub for collaboration in Taiwan history, public history, and museum practice, working with local, national, and international partners."
+    ],
+    "theme_tags": [
+      "Mission",
+      "Museum objectives",
+      "Public history",
+      "Education",
+      "Research",
+      "Heritage preservation"
+    ],
+    "audiences": [
+      "General public",
+      "Students and teachers",
+      "Researchers and scholars",
+      "Local communities",
+      "International visitors",
+      "Museum and heritage professionals"
+    ],
+    "time_coverage": "Prehistory to contemporary Taiwan",
+    "keywords": [
+      "Museum mission",
+      "Objectives",
+      "Taiwan public history",
+      "Heritage preservation",
+      "History education"
+    ],
+    "website": "https://www.nmth.gov.tw/",
+    "source_url": "https://museums.moc.gov.tw/EN/MusData/Detail?museumsId=a8c19cd1-58c1-46d2-8e2e-856a3677f555"
+  }
+]
